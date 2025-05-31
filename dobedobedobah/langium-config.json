@@ -1,0 +1,15 @@
+{
+    "projectName": "Platypus",
+    "languages": [{
+        "id": "platypus",
+        "grammar": "src/language/platypus.langium",
+        "fileExtensions": [".platypus"],
+        "textMate": {
+            "out": "syntaxes/platypus.tmLanguage.json"
+        },
+        "monarch": {
+            "out": "src/syntaxes/platypus.monarch.ts"
+        }
+    }],
+    "out": "src/language/generated"
+}
